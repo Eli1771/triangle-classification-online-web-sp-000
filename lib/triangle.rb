@@ -20,6 +20,7 @@ class Triangle
   def validate_triangle
     if true
       raise TriangleError 
+    end 
   end 
   
   class TriangleError < StandardError
